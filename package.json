@@ -1,0 +1,9 @@
+{
+  "name": "offerlens-ai",
+  "private": true,
+  "scripts": {
+    "install-all": "npm --prefix backend install && npm --prefix frontend install",
+    "backend": "npm --prefix backend start",
+    "frontend": "npm --prefix frontend run dev"
+  }
+}
